@@ -3,7 +3,17 @@ entries:
   mongo-compass:
   - apiVersion: v2
     appVersion: 0.1.1
-    created: "2025-05-26T09:33:35.623959679Z"
+    created: "2025-05-26T09:40:01.202393805Z"
+    description: A Helm chart for Kubernetes
+    digest: 357601d65d91641ea184960b6c63363f22ceb36c36c6aace933ef355a35a3757
+    name: mongo-compass
+    type: application
+    urls:
+    - https://underndog.github.io/mongo-compass-web-helm/mongo-compass-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 0.1.1
+    created: "2025-05-26T09:40:01.201582191Z"
     description: A Helm chart for Kubernetes
     digest: e89171a17d8d71a04cf10ff5cb76897d1eab83caa4e68a632dcd530dbbc46789
     name: mongo-compass
@@ -11,4 +21,4 @@ entries:
     urls:
     - https://underndog.github.io/mongo-compass-web-helm/mongo-compass-0.1.0.tgz
     version: 0.1.0
-generated: "2025-05-26T09:33:35.623121191Z"
+generated: "2025-05-26T09:40:01.200657296Z"
