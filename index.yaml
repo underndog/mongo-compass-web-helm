@@ -3,7 +3,29 @@ entries:
   mongo-compass:
   - apiVersion: v2
     appVersion: 0.1.2
-    created: "2025-05-30T04:51:19.545431152Z"
+    created: "2025-05-30T06:38:41.752419252Z"
+    description: A Helm chart for Kubernetes
+    digest: 45eaf5442117eb568db4e0d1e139a95187c7d41450d4e83a35e7ac75ce63929d
+    home: https://nimtechnology.com/
+    icon: https://raw.githubusercontent.com/underndog/mongo-compass-web-helm/master/docs/img/mongo-compass.png
+    keywords:
+    - mongo ui
+    - mongo compass
+    - mongo-ui
+    - mongo-compass
+    maintainers:
+    - email: dc.nim94@gmail.com
+      name: Nim
+    name: mongo-compass
+    sources:
+    - https://github.com/underndog/mongo-compass-web-helm
+    type: application
+    urls:
+    - https://underndog.github.io/mongo-compass-web-helm/mongo-compass-0.2.1.tgz
+    version: 0.2.1
+  - apiVersion: v2
+    appVersion: 0.1.2
+    created: "2025-05-30T06:38:41.751681481Z"
     description: A Helm chart for Kubernetes
     digest: d1da51d8071ebbd6548f7bb414a481c1d2148e850d37de999a01ddca431b0613
     home: https://nimtechnology.com/
@@ -25,7 +47,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 0.1.2
-    created: "2025-05-30T04:51:19.544716863Z"
+    created: "2025-05-30T06:38:41.750899874Z"
     description: A Helm chart for Kubernetes
     digest: 404ee3ff1887afcb79d8acaea149e82ec16bbf8d0b071d247ed9df573a6dd5c1
     home: https://nimtechnology.com/
@@ -47,7 +69,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 0.1.1
-    created: "2025-05-30T04:51:19.543973171Z"
+    created: "2025-05-30T06:38:41.750046248Z"
     description: A Helm chart for Kubernetes
     digest: 357601d65d91641ea184960b6c63363f22ceb36c36c6aace933ef355a35a3757
     name: mongo-compass
@@ -57,7 +79,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 0.1.1
-    created: "2025-05-30T04:51:19.543282177Z"
+    created: "2025-05-30T06:38:41.749343068Z"
     description: A Helm chart for Kubernetes
     digest: e89171a17d8d71a04cf10ff5cb76897d1eab83caa4e68a632dcd530dbbc46789
     name: mongo-compass
@@ -65,4 +87,4 @@ entries:
     urls:
     - https://underndog.github.io/mongo-compass-web-helm/mongo-compass-0.1.0.tgz
     version: 0.1.0
-generated: "2025-05-30T04:51:19.542232393Z"
+generated: "2025-05-30T06:38:41.748495155Z"
