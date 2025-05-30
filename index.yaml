@@ -3,9 +3,9 @@ entries:
   mongo-compass:
   - apiVersion: v2
     appVersion: 0.1.2
-    created: "2025-05-30T04:44:31.322384689Z"
+    created: "2025-05-30T04:51:19.545431152Z"
     description: A Helm chart for Kubernetes
-    digest: 6cf4b52e4669348af02c85988ae45b55cf69936af751ba21a7027f3ac0e9fc0b
+    digest: d1da51d8071ebbd6548f7bb414a481c1d2148e850d37de999a01ddca431b0613
     home: https://nimtechnology.com/
     icon: https://raw.githubusercontent.com/underndog/mongo-compass-web-helm/master/docs/img/mongo-compass.png
     keywords:
@@ -25,7 +25,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 0.1.2
-    created: "2025-05-30T04:44:31.321063574Z"
+    created: "2025-05-30T04:51:19.544716863Z"
     description: A Helm chart for Kubernetes
     digest: 404ee3ff1887afcb79d8acaea149e82ec16bbf8d0b071d247ed9df573a6dd5c1
     home: https://nimtechnology.com/
@@ -47,7 +47,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 0.1.1
-    created: "2025-05-30T04:44:31.319762556Z"
+    created: "2025-05-30T04:51:19.543973171Z"
     description: A Helm chart for Kubernetes
     digest: 357601d65d91641ea184960b6c63363f22ceb36c36c6aace933ef355a35a3757
     name: mongo-compass
@@ -57,7 +57,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 0.1.1
-    created: "2025-05-30T04:44:31.318665982Z"
+    created: "2025-05-30T04:51:19.543282177Z"
     description: A Helm chart for Kubernetes
     digest: e89171a17d8d71a04cf10ff5cb76897d1eab83caa4e68a632dcd530dbbc46789
     name: mongo-compass
@@ -65,4 +65,4 @@ entries:
     urls:
     - https://underndog.github.io/mongo-compass-web-helm/mongo-compass-0.1.0.tgz
     version: 0.1.0
-generated: "2025-05-30T04:44:31.31733683Z"
+generated: "2025-05-30T04:51:19.542232393Z"
