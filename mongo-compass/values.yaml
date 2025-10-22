@@ -122,4 +122,9 @@ tolerations: []
 
 affinity: {}
 
-defaultMongodbUri: ""
+defaultMongodbUri: "mongodb://user:password@host:port/db"
+
+# You can omit this entire block, or leave it empty.
+mongodbUriFromSecret: {}
+  # secretName: ""
+  # secretKey: ""

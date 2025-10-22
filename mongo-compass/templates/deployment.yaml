@@ -41,7 +41,13 @@ spec:
           image: "{{ .Values.image.repository }}:{{ .Values.image.tag | default .Chart.AppVersion }}"
           imagePullPolicy: {{ .Values.image.pullPolicy }}
           env:
-            {{- if .Values.defaultMongodbUri }}
+            {{- if and .Values.mongodbUriFromSecret .Values.mongodbUriFromSecret.secretName .Values.mongodbUriFromSecret.secretKey }}
+            - name: MONGODB_URI
+              valueFrom:
+                secretKeyRef:
+                  name: {{ .Values.mongodbUriFromSecret.secretName | quote }}
+                  key: {{ .Values.mongodbUriFromSecret.secretKey | quote }}
+            {{- else if .Values.defaultMongodbUri }}
             - name: MONGODB_URI
               value: "{{ .Values.defaultMongodbUri }}"
             {{- end }}
