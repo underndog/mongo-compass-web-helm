@@ -57,7 +57,12 @@ The chart can be customized using the following parameters in your `values.yaml`
 
 To override these values during installation:
 
-`helm install mongo-compass-web mongo-compass-web/mongo-compass \  --set replicaCount=2 \  --set service.type=LoadBalancer \ --set defaultMongodbUri=\"mongodb://username:password@host:27017/dbname\"`
+```
+helm install mongo-compass-web mongo-compass-web/mongo-compass \
+  --set replicaCount=2 \
+   --set service.type=LoadBalancer \
+   --set defaultMongodbUri=\"mongodb://username:password@host:27017/dbname\"
+```
 
 > **Note:** Setting `defaultMongodbUri` will pre-fill the connection string in the Compass UI, making it easier for users to connect to your MongoDB instance by default. You can leave it empty to require users to enter their own connection string.
 
