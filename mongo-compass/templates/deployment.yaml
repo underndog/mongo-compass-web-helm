@@ -42,13 +42,13 @@ spec:
           imagePullPolicy: {{ .Values.image.pullPolicy }}
           env:
             {{- if and .Values.mongodbUriFromSecret .Values.mongodbUriFromSecret.secretName .Values.mongodbUriFromSecret.secretKey }}
-            - name: MONGODB_URI
+            - name: CW_MONGO_URI
               valueFrom:
                 secretKeyRef:
                   name: {{ .Values.mongodbUriFromSecret.secretName | quote }}
                   key: {{ .Values.mongodbUriFromSecret.secretKey | quote }}
             {{- else if .Values.defaultMongodbUri }}
-            - name: MONGODB_URI
+            - name: CW_MONGO_URI
               value: "{{ .Values.defaultMongodbUri }}"
             {{- end }}
           ports:
