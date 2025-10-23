@@ -50,10 +50,10 @@ The chart can be customized using the following parameters in your `values.yaml`
 
 *   `replicaCount`: Number of replicas for the deployment (default: `1`)
 *   `image.repository`: Docker image repository (default: `haohanyang/compass-web`)
-*   `image.tag`: Docker image tag (default: `“”`)
+*   `image.tag`: Docker image tag (default: `"0.2.6"`)
 *   `service.type`: Kubernetes service type (default: `ClusterIP`)
-*   `service.port`: Service port (default: `80`)
-*   `defaultMongodbUri`: Default MongoDB connection URI shown in the Compass UI (default: `""`)
+*   `service.port`: Service port (default: `8080`)
+*   `defaultMongodbUri`: Default MongoDB connection URI shown in the Compass UI (default: `"mongodb://user:password@host:port/db"`)
 
 To override these values during installation:
 
@@ -84,7 +84,7 @@ To package and test the chart locally:
 
 1.  **Install the Chart Locally**:
     
-    `helm install mongo-compass-web ./mongo-compass-0.1.1.tgz`
+    `helm install mongo-compass-web ./mongo-compass-1.1.1.tgz`
     
 
 ---
